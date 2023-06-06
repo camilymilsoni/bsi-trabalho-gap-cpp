@@ -26,7 +26,12 @@ public:
     void alterar_cliente(Cliente* primeiro);
     void buscar_cliente(Cliente* primeiro);
     void menuCliente();
-      
+    
+    //Métodos utilizados na Venda
+    bool listar_cliente_venda();
+    bool codigo_valido_cliente(int codigo_cliente);
+    void mostrar_cliente(int codigo_cliente);
+    
 private:
 
 };

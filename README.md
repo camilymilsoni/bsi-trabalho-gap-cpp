@@ -1,7 +1,7 @@
 ## [Camily Milsoni Rodrigues](https://github.com/camilymilsoni)
 ## [Matheus de Oliveira Cortez Cervantes](https://github.com/MatheusCervantes)
 
-### Para testar do sistema:
+### Para testar o sistema:
 #### **.** Crie um novo projeto em sua IDE. 
 #### **.** Crie as classes cCliente, cProduto e cVenda.
 #### **.** Clone o repositório.

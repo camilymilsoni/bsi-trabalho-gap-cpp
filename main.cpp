@@ -15,6 +15,7 @@ int main(int argc, char** argv) {
 
 void menuPrincipal() {
     cCliente* objCliente = new cCliente;
+    cProduto* objProduto = new cProduto;
     
     int opcao = -1;
    
@@ -42,7 +43,7 @@ void menuPrincipal() {
 
         case 2:
             system("clear||cls");
-
+            objProduto->menuProduto();
             break;
 
         case 3:

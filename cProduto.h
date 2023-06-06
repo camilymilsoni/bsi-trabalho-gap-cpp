@@ -25,7 +25,13 @@ public:
     void alterar_produto(Produto* primeiro);
     void buscar_produto(Produto* primeiro);
     void menuProduto();
-       
+    
+    //Métodos utilizados na Venda
+    bool listar_produto_venda();
+    bool codigo_valido_produto(int codigo_produto);
+    double valor_produto(int codigo_produto);
+    void mostrar_nome_valor_produto(int codigo_produto);
+    
 private:
 
 };

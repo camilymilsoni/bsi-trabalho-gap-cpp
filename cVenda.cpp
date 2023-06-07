@@ -236,6 +236,11 @@ void cVenda::alterar_venda(Venda* primeiro) {
                             cout << endl << endl << "CÓDIGO DO CLIENTE: ";
                             cin >> atual->codigo_cliente;
                             system("clear||cls");
+                            cout << "Cliente alterado com sucesso. ";
+                            cout << endl << "**PRESSIONE QUALQUER TECLA PARA VOLTAR AO MENU**";
+                            cin.get();
+                            cin.get();
+                            system("clear||cls");
                         }
                     } while (objCliente->codigo_valido_cliente(atual->codigo_cliente));
                     break;
@@ -252,7 +257,7 @@ void cVenda::alterar_venda(Venda* primeiro) {
                     system("clear||cls");
                     break;
             }
-        } while (opc1 != 2 );
+        } while (opc1 != 2);
 
         cout << "Dados alterados com sucesso." << endl;
     } else {
@@ -439,7 +444,7 @@ void cVenda::alterar_venda_produto(Venda* primeiro) {
                     } else {
                         anterior->prox = produtoatual->prox;
                     }
-
+                    system("clear||cls");
                     cout << endl << "Conteúdo excluído com sucesso." << endl;
                     cout << endl << "**PRESSIONE QUALQUER TECLA PARA VOLTAR AO MENU**";
                     cin.get();

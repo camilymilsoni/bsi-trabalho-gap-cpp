@@ -1,4 +1,4 @@
-### :link: [Camily Milsoni Rodrigues](https://github.com/camilymilsoni) & [Matheus de Oliveira Cortez Cervantes](https://github.com/MatheusCervantes)
+### :pencil: [Camily Milsoni Rodrigues](https://github.com/camilymilsoni) & [Matheus de Oliveira Cortez Cervantes](https://github.com/MatheusCervantes)
 
 Trabalho em C++ feito durante o terceiro semestre da faculdade de BSI para fins de nota na disciplina de Gestão Ágil de Projetos.
 
